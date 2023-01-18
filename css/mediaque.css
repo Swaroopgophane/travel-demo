@@ -1,10 +1,20 @@
 
 @media (min-width:320px) and (max-width:570px)
 {
+
+    /*--------++--------------
+        Index page  
+     ++------------------- ---*/
+
+
+/*--------++ main section media query ++--------- */
+  
+
     #main
     {
         height: 100%;
         padding-bottom: 100px;
+        background-attachment:unset;
     }
     .navbar
     {
@@ -166,6 +176,10 @@
 
     /*--------++ offer section media query ++--------- */
 
+    #offer-container
+    {
+        background-attachment:unset;
+    }
     .email-sec input
     {
         width: 90%;
@@ -262,11 +276,93 @@
      padding-left: 0px;
      
  }
+ 
+
+
+  /*--------++--------------
+        About page  
+     ++------------------- ---*/
      
+
+     .common-pagehead h2{
+        font-size: 50px;
+     }
+
+
+     .about-section
+     {
+        flex-direction: column;
+     }
+     
+     .about-column
+     {
+        width: 100%;
+     }
+     
+     .about-column:nth-child(2)
+     {
+         padding-left: 0px;
+         margin-top: 30px;
+     }
+
+     .about-content .about-btn
+     {
+        padding: 12px 10px;
+     }
+
+
+     .service-container{
+        flex-direction: column;
+     }
+
+     .services-col
+     {
+        width: 100%;
+        margin-bottom: 20px;
+     }
+
+
+     .team-section
+     {
+        flex-direction: column;
+     }
+
+     .team-section .team-col
+     {
+        width: 90%;
+        margin:20px auto;
+     }
+
+
+     .destination-inner
+     {
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-template-rows: repeat(6,300px);
+     }
+
+     .hidden-dest-label h2
+     {
+        font-size: 35px;
+     }
+
+
+     .package-container
+     {
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+     }
+
 }
 
 @media (min-width:570px) and (max-width:768px)
 {
+
+    /*--------++--------------
+        Index page  
+     ++------------------- ---*/
+
+
+     /*--------++ main section media query ++--------- */
+
     .header
     {
 
@@ -411,12 +507,67 @@
      }
      
      
+     /*--------++--------------
+        About page  
+     ++------------------- ---*/
+
+
+     .about-section
+     {
+        flex-direction: column;
+     }
      
+     .about-column
+     {
+        width: 100%;
+     }
      
+     .about-column:nth-child(2)
+     {
+         padding-left: 0px;
+         margin-top: 30px;
+     }
+     
+
+     .service-container{
+        flex-direction: column;
+     }
+
+     .services-col
+     {
+        width: 100%;
+        margin-bottom: 20px;
+     }
+
+
+     .team-section
+     {
+        flex-direction: column;
+     }
+
+     .team-section .team-col
+     {
+        width: 60%;
+        margin:20px auto;
+     }
+
+
+     .destination-inner
+     {
+        grid-template-rows: repeat(6,300px);
+     }
 }
 
 @media (min-width:768px) and (max-width:960px)
 {
+
+    /*--------++--------------
+        Index page  
+     ++------------------- ---*/
+
+
+     /*--------++ main section media query ++--------- */
+
     .header .logo img
     {
         height: 50px;
@@ -559,11 +710,65 @@
         
          margin-top: 30px;
      }
+
+
+     /*--------++--------------
+        About page  
+     ++------------------- ---*/
+
+     .about-section
+     {
+        flex-direction: column;
+     }
      
+     .about-column
+     {
+        width: 100%;
+     }
+     
+     .about-column:nth-child(2)
+     {
+         padding-left: 0px;
+         margin-top: 30px;
+     }
+
+
+     .service-container{
+        flex-direction: column;
+     }
+
+     .services-col
+     {
+        width: 100%;
+        margin-bottom: 20px;
+     }
+
+
+     .team-section
+     {
+        flex-direction: column;
+     }
+
+     .team-section .team-col
+     {
+        width: 60%;
+        margin:20px auto;
+     }
+
+
+     .destination-inner
+     {
+        grid-template-rows: repeat(6,300px);
+     }
 }
 
 @media (min-width:960px) and (max-width:1200px)
 {
+
+    /*--------++--------------
+        Index page  
+     ++------------------- ---*/
+
 
      /*--------++ welcome container media query ++--------- */
 
@@ -618,6 +823,25 @@
          padding-left: 30px;
      }
 
+
+     /*--------++--------------
+        About page  
+     ++------------------- ---*/
+
+     .about-section
+     {
+        width: 90%;
+     }
+
+     .service-container
+     {
+        width: 90%;
+     }
+
+     .team-section
+     {
+        width: 90%;
+     }
 }
 
 
