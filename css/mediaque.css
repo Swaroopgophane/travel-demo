@@ -10,12 +10,12 @@
 /*--------++ main section media query ++--------- */
   
 
-    #main
+    /* #main
     {
        
         padding-bottom: 100px;
         background-attachment:unset;
-    }
+    } */
     .navbar
     {
         position: fixed;
